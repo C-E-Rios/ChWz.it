@@ -1,0 +1,82 @@
+// COLOURS //
+
+$blue: #22aabd;
+$pink: #bd2b4f;
+$green: #018e4a;
+$yellow: #bca000;
+$gray: #888;
+$logoYellow: #f9c22a;
+
+
+// VARS //
+
+$ContainerPadding: 2em;
+
+
+
+
+// FONTS //
+
+@mixin font-stack-header { 
+	font-family: 'Amaranth', sans-serif;
+	font-weight: 700;
+}
+
+@mixin font-stack-normalTxt {
+	font-family: 'Lato', serif;
+}
+
+@mixin font-stack-oswald {
+	font-family: 'Oswald', serif;
+}
+
+
+// FORMS //
+
+
+@mixin input-placeholder($color) {
+  &.placeholder {
+    color: $color; 
+  }
+  &::-moz-placeholder {
+    color: $color; 
+  }
+  &::-webkit-input-placeholder {
+    color: $color; 
+  } 
+}
+
+
+
+// ANIMATION MIXIN //
+
+
+
+// COLOUR VARIATIONS //
+
+// GALLERY //
+
+.peculiar {
+  border-bottom: 4px solid $blue;
+}
+.news {
+  border-bottom: 4px solid $pink;
+}
+.funny {
+  border-bottom: 4px solid $green;
+}
+.music {
+  border-bottom: 4px solid $yellow;
+}
+
+
+
+
+// CLEARFIX //
+
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}

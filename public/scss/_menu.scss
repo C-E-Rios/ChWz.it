@@ -1,0 +1,174 @@
+
+ul {
+	position: relative;
+	padding: 0;
+	@include font-stack-oswald;
+}
+ul li {
+	height: 50px;
+	display: block;
+	position: relative;
+	z-index: 100;
+	margin: 0.3em 0;
+	-webkit-animation: menu 2s;
+	-webkit-animation-fill-mode: forwards;
+	-moz-animation: menu 2s; 
+	-moz-animation-fill-mode: forwards; 
+	-ms-animation: menu 2s; 
+	-ms-animation-fill-mode: forwards; 
+	animation: menu 2s;
+	animation-fill-mode: forwards; 
+	opacity: 1;
+}
+ul li:hover {
+	cursor: pointer;
+}
+ul li a:before {
+	@include font-stack-icon;
+	display: block;
+	height: 50px; width: 50px;
+	font-size: 2em;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	border-right: rgba(0,0,0,0.2) 1px solid;
+	text-align: center;
+	color: #999;
+	background: #ebebeb;
+	z-index: 200;
+	line-height: 1.3em;
+
+}
+
+
+ul li a[href^="/index.html"] {
+	&:before {
+		content: "\e001";
+		color: #000;
+	}
+	// &:hover:before {
+	// 	color: #000;
+	// }
+}  
+
+
+ul li a[href^="/peculiar"] {
+	&:before {
+		content: "\e002";
+ 	}
+ 	&:hover:before {
+		color: #000;
+	}
+}
+
+
+ul li a[href^="/news"] {
+	&:before {
+		content: "\e003";
+	}
+	&:hover:before {
+	color: #000;
+	}
+}
+
+
+ul li a[href^="/funny"] {
+	&:before {
+		content: "\e004";
+	}
+	&:hover:before {
+		color: #000;
+	}
+}
+
+
+
+ul li a[href^="/music"] {
+	&:before {
+		content: "\e005";
+	}
+	&:hover:before {
+		color: #000;
+	}
+}
+
+
+li a {
+	color: #000;
+	background: #fff;
+	display: block;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 18px;
+	line-height: 2.8em;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	overflow: hidden;
+	-webkit-transition: all 0.1s ease-in-out;
+	-moz-transition: all 0.1s ease-in-out;
+	-ms-transition: all 0.1s ease-in-out;
+	transition: all 0.1s ease-in-out;
+}
+
+ul li:nth-child(1) a {
+	padding: 0 4.5em 0 3.8em;
+	background: #888;
+	color: #fff;
+}
+
+ul li:nth-child(2) a {
+	padding: 0 4em 0 3.8em;
+}
+
+ul li:nth-child(3) a {
+	padding: 0 4.8em 0 3.8em;
+}
+
+ul li:nth-child(4) a {
+	padding: 0 4.2em 0 3.8em;
+}
+
+ul li:nth-child(5) a {
+	padding: 0 4.5em 0 3.8em;
+}
+
+
+// ul li:nth-child(1) a:hover {
+// 	background: #bca000;
+// }
+
+ul li:nth-child(2) a:hover {
+	background: #22aabd;
+	padding-right: 5.5em;
+}
+
+ul li:nth-child(3) a:hover {
+	background: #bd2b4f;
+	padding-right: 5.5em;
+}
+
+ul li:nth-child(4) a:hover {
+	background: #018e4a;
+	padding-right: 5.5em;
+}
+
+ul li:nth-child(5) a:hover {
+	background: #bca000;
+	padding-right: 5.5em;
+}
+
+ul li a:hover {
+	color: #fff;
+	opacity: 1.0;
+	-webkit-transition: all 0.1s ease-in-out;
+	-moz-transition: all 0.1s ease-in-out;
+	-ms-transition: all 0.1s ease-in-out;
+	transition: all 0.1s ease-in-out;
+}
+
+.iconSize {
+	font-size: 2em;
+	padding: 0 0.5em 0 0;
+}
+

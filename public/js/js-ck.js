@@ -1,0 +1,1 @@
+function alertBox(){$(".alert-box").fadeOut(4e3)}alertBox();

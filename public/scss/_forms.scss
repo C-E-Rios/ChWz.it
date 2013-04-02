@@ -1,0 +1,59 @@
+
+
+input, select, textarea {
+	@include border-radius(4px);
+	border: 1px solid #ccc;
+	
+}
+
+
+
+// userPane //
+
+.userPane {
+	input {
+	background: #000;
+	border: 0;
+	color: #fff;
+	width: 6em; height: 2em;
+	margin: -0.03em 0;
+	padding: 0.5em;
+	@include input-placeholder(#fff);
+	@include border-radius(4px);
+	}
+	button {
+		height: 31px;
+		font-weight: bold;
+		background: #ccc;
+		@include border-radius(4px);
+	}
+	input#searchInput {
+		width: 10em;
+	}
+	.loginInput {
+		width: 9.5em;
+	}
+	.logoutButton {
+		float: right;
+		margin: 0 2em;
+	}
+}
+
+
+
+// POST VIDEO - RIGHT SIDEBAR //
+
+.postVideo {
+	select {
+		width: 60%;
+		color: #a9a9a9;
+	}
+	textarea, input {
+		width: 80%;
+		padding: 0.3em 0.5em;
+	}
+	textarea {
+		height: 4em;
+		resize: none;
+	}
+}

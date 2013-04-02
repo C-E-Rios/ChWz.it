@@ -1,0 +1,15 @@
+@font-face {
+  font-family: 'nav-icons';
+  src: url('../fonts/nav-icons.eot?#') format('eot'),  /* IE6–8 */
+       url('../fonts/nav-icons.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+       url('../fonts/nav-icons.ttf') format('truetype');  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
+}
+
+@mixin font-stack-icon {
+  font-family: 'nav-icons';
+}
+
+[data-icon]:before {
+  @include font-stack-icon;
+  content: attr(data-icon); }
+
