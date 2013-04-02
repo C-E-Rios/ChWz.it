@@ -24,7 +24,7 @@ html {
 .logo { 
 	background: url(../images/theme/logo.png) no-repeat;
 	float: left;
-	width: 319px; height: 100px;
+	width: 594px; height: 127px;
 	text-indent: -100%;
 }
 
@@ -74,6 +74,15 @@ html {
 }
 
 
+	// OTHER-PAGES //
+
+@import "peculiar";
+@import "news";
+@import "funny";
+@import "music";
+
+
+
 
 
 // NAV //
@@ -91,23 +100,16 @@ html {
 	.mainStory {
 		background: #fff;
 		padding: 1em $ContainerPadding;
+		background: #fff url(../images/categoryIcons/newsEye.png) no-repeat;
 	}
 }
 
-	// OTHER-PAGES //
-
-@import "peculiar";
-@import "news";
-@import "funny";
-@import "music";
-
-
-// MAIN CONTENT //
+// MAIN CONTENT - 1 // 
 
 article { 
 	position: relative;
 	padding: 0 0 1em 0;
-	border-bottom: 1px dotted #ccc;
+	border-bottom: 1px dotted #ccc;	
 	.iconSize {
 		font-size: 4em;
 		color: #000;
@@ -158,12 +160,13 @@ article {
 
 
 
-// GALLERY //
+// GALLERY 2 //
 
 .mainStory-galleryContainer {
 	padding: 0 0 0.2em 0;
 	border-bottom: 1px dotted #ccc;
 }
+
 .mainStory-gallery {
 	overflow: hidden;
 	margin: 1em 0 0 1em;
@@ -223,7 +226,7 @@ article {
 
 
 
-// WIDGETS //
+// WIDGETS 3 //
 
 .widget { 
 	@include font-stack-normalTxt;
