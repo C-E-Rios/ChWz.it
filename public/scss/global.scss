@@ -139,12 +139,12 @@ article {
 		background: #000;
 		width: 45%;
 		padding: 0.4em 1.4em;
-		margin: 0.4em 0 0 0;
+		margin: 1.6em 0 0 0;
 		border-bottom: 4px solid #bd2b4f;
 		@include border-radius(4px);
 		address {
 			color: #fff;
-			font-size: 0.7em;
+			font-size: 0.9em;
 			font-style: normal;
 		}
 	}
@@ -389,7 +389,6 @@ article {
 	background: #000;
 	color: #fff;
 	padding: 0.3em;
-	width: 90%;
 	text-align: center;
 	@include border-radius(4px);
 }

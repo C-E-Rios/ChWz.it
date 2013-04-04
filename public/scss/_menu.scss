@@ -1,11 +1,13 @@
+nav {}
 
 ul {
 	position: relative;
 	padding: 0;
 	@include font-stack-oswald;
+	margin: 0 -3em 0;
 }
 ul li {
-	height: 50px;
+	height: 63px;
 	display: block;
 	position: relative;
 	z-index: 100;
@@ -26,8 +28,8 @@ ul li:hover {
 ul li a:before {
 	@include font-stack-icon;
 	display: block;
-	height: 50px; width: 50px;
-	font-size: 2em;
+	height: 62px; width: 62px;
+	font-size: 2.1em;
 	position: absolute;
 	left: 0;
 	bottom: 0;
@@ -37,8 +39,14 @@ ul li a:before {
 	background: #ebebeb;
 	z-index: 200;
 	line-height: 1.3em;
-
 }
+
+.menuIconBlack {
+	&:hover:before {
+		color: #000;
+	}
+}
+
 
 
 ul li a[href^="/index.html"] {
@@ -56,18 +64,12 @@ ul li a[href^="/peculiar"] {
 	&:before {
 		content: "\e002";
  	}
- 	&:hover:before {
-		color: #000;
-	}
 }
 
 
 ul li a[href^="/news"] {
 	&:before {
 		content: "\e003";
-	}
-	&:hover:before {
-	color: #000;
 	}
 }
 
@@ -76,9 +78,6 @@ ul li a[href^="/funny"] {
 	&:before {
 		content: "\e004";
 	}
-	&:hover:before {
-		color: #000;
-	}
 }
 
 
@@ -86,9 +85,6 @@ ul li a[href^="/funny"] {
 ul li a[href^="/music"] {
 	&:before {
 		content: "\e005";
-	}
-	&:hover:before {
-		color: #000;
 	}
 }
 
@@ -99,7 +95,7 @@ li a {
 	display: block;
 	text-decoration: none;
 	text-transform: uppercase;
-	font-size: 18px;
+	font-size: 1.4em;
 	line-height: 2.8em;
 	position: absolute;
 	bottom: 0;

@@ -1,1 +1,1 @@
-function alertBox(){$(".alert-box").fadeOut(4e3)}alertBox();
+function alertBox(){$(".alert-box").fadeOut(4e3)}alertBox();var registerForm=$("#registerForm");$(".registerFormAnchor").click(function(){registerForm.toggleClass("hideRegisterForm");registerForm.toggleClass("showRegisterForm")});

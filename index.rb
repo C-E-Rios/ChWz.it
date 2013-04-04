@@ -73,11 +73,11 @@ def main_container
 				<div class="grid-1-3">
 					<nav class="leftSidebarContainer">
 						<ul>
-						  <li><a href="/index.html">Home</a></li>
-						  <li><a href="/peculiar.html">Peculiar</a></li>
-						  <li><a href="/news.html">News</a></li>
-						  <li><a href="/funny.html">Funny</a></li>
-						  <li><a href="/music.html">Music</a></li>
+						  <li><a class="menuIconBlack" href="/index.html">Home</a></li>
+						  <li><a class="menuIconBlack" href="/peculiar.html">Peculiar</a></li>
+						  <li><a class="menuIconBlack" href="/news.html">News</a></li>
+						  <li><a class="menuIconBlack" href="/funny.html">Funny</a></li>
+						  <li><a class="menuIconBlack" href="/music.html">Music</a></li>
 						</ul>
 					</nav>
 				</div>
@@ -199,12 +199,23 @@ def main_container
 				</div>
 				<div class="grid-3-3">
 					<div class="rightSidebar">
-						<a href="#">
-							<h2 class="joinUsH2">Join us?</h2>
-							<span class="iconSize" data-icon="&#xe006;"></span>
-						</a>
-						<!-- Form reveals iteself when users click on the above -->
-							<p>Contribute anonymously, or tell us your name and e-mail address to post as yourself.</p>
+						<div class="registerWidget">
+							<a>
+								<div class="registerFormAnchor">
+									<h2 class="joinUsH2">Join us?</h2>
+									<span class="iconSize" data-icon="&#xe006;"></span>
+								</div>
+							</a>
+							<!-- Form reveals iteself when users click on the above -->
+							<form action="#" id="registerForm" class="hideRegisterForm hideRegisterFormOpacity">
+							  <input type="username" name="registerUsername" placeholder="Username">
+							  <input type="email" name="registerEmail" placeholder="e-mail">
+							  <input type="Password" name="registerPassword" placeholder="Password">
+							  <input type="Password" name="registerPasswordConfirm" class="registerPasswordConfirm" placeholder="Confirm Password">
+							  <button type="submit" class="registerSubmit">Register</button>
+							</form>
+							<p>Contribute anonymously, or tell us your desired username and e-mail address to post as yourself.</p>
+						</div>
 						<div class="postVideo">
 							<h2>Post New Video</h2>
 							<p class="singleLineTxt">You don't have to join to contribute.</p>
