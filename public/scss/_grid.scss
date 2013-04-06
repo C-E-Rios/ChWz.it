@@ -1,6 +1,6 @@
 .grid-container {
 	width: 100%;
-	padding: 0 $ContainerPadding*2 0 $ContainerPadding+1em;
+	padding: 0 $ContainerPadding 0 $ContainerPadding+1em;
 }
 
 // 3 COLUMNS //
@@ -11,12 +11,12 @@
 }
 
 .grid-2-3 {
-	width: 63%;
+	width: 64%;
 	float: left;
 }
 
 .grid-3-3 {
-	width: 21%;
+	width: 20%;
 	float: left;
 }
 

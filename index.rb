@@ -87,10 +87,10 @@ def main_container
 							<span class="iconSize news-icon" data-icon="&#xe003;"></span>
 							<h1>Meteor Strikes Russia</h1>
 							<figure>
-								<img src="images/rus-meteor.png" alt="Russian Meteor"/>
+								<iframe class="youtubeIframe" width="444" height="250" src="http://www.youtube.com/embed/2FCJOuLXIz4?rel=0&showinfo=0" frameborder="0"></iframe>
 							</figure>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-							<div class="post-author">
+							<p class="mainStoryParagraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+							<div class="post-author news">
 								<address>Shared by SpiderManx1. 15th Jan, 2013.</address>
 							</div>
 						</article>

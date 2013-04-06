@@ -19,7 +19,7 @@ html {
 // HEADER //
 
 .headerContainer {
-	padding: 1.5em $ContainerPadding*2 0 $ContainerPadding*2;
+	padding: 1.5em $ContainerPadding 0 $ContainerPadding;
 }
 .logo { 
 	background: url(../images/theme/logo.png) no-repeat;
@@ -34,7 +34,7 @@ html {
 	position: relative;
 	float: right;
 	background: #fff;
-	margin: 1em 0 1.5em;
+	margin: 2em 0 1.5em;
 	width: 41.6em; height: 4em;
 	@include border-radius(4px);
 	.searchContainer{ 
@@ -125,22 +125,25 @@ article {
 		margin: 0;
 		padding: 0 0 0.4em;
 	}
-	figure img {
+	figure {
 		float: left;
-		width: 275px; height: 189px;
+		width: 453px; height: 258px;
 		@include border-radius(8px);
 		margin: 0 1em 0 0;
-		border: 1px solid #000;
+		border: 1px solid #262626;
 		padding: 0.2em;
-		background-color: #000;
+		background-color: #262626;
+		.youtubeIframe {
+			border: 2px solid #262626;
+			@include border-radius(8px);
+		}
 	}
 	.post-author {
 		float: left;
 		background: #000;
-		width: 45%;
-		padding: 0.4em 1.4em;
-		margin: 1.6em 0 0 0;
-		border-bottom: 4px solid #bd2b4f;
+		width: 36%;
+		padding: 0.5em;
+		margin: 1.4em 0 0 0.5em;
 		@include border-radius(4px);
 		address {
 			color: #fff;
@@ -148,15 +151,16 @@ article {
 			font-style: normal;
 		}
 	}
-	p {
-		margin: 0;
-		padding: 0 0 0.4em 0;
-		width: 96%;
-		&:first-letter {
-			font-size: 1.3em;
-		} 
-	}
 }
+.mainStoryParagraph {
+	margin: 0;
+	float: right;
+	width: 37%;
+	&:first-letter {
+		font-size: 1.3em;
+	} 
+}
+
 
 
 
@@ -179,14 +183,15 @@ article {
 	.imgHolder {
 		position: absolute;
 		overflow: hidden;
-		width: 206px; height: 116px;
+		width: 235px; height: 135px;
 		@include border-radius(8px);
+		border: 4px solid #282828;
 		img {
-			width: 212px; height: 122px;
+			width: 228px; height: 128px;
 			@include transition(all 0.3s ease-in-out);
 		}
 		&:hover img {
-			width: 206px; height: 116px;
+			width: 238px; height: 138px;
 		}
 		figcaption {
 			position: absolute;
@@ -195,14 +200,13 @@ article {
 			right: 0;
 			color: #fff;
 			opacity: 0;
-			font-size: 0.5em;
+			font-size: 0.7em;
 			margin: 0 0 -2em;
 			@include transition(all 0.3s ease-out);
 		}
 		&:hover figcaption {
 			margin: 0 0 0;
 			background: rgba(0, 0, 0, 1);
-			@include border-bottom-radius(8px);
 			opacity: 1;
 		}
 		h3 {
@@ -385,7 +389,7 @@ article {
 	}
 }
 .singleLineTxt {
-	font-size: 0.8em;
+	font-size: 0.75em;
 	background: #000;
 	color: #fff;
 	padding: 0.3em;
