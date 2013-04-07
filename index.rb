@@ -85,11 +85,11 @@ def main_container
 					<div class="mainStory">
 						<article class="group">
 							<span class="iconSize news-icon" data-icon="&#xe003;"></span>
-							<h1>Meteor Strikes Russia</h1>
+							<h1>US Solider Hit by Enemy Fire</h1>
 							<figure>
-								<iframe class="youtubeIframe" width="444" height="250" src="http://www.youtube.com/embed/2FCJOuLXIz4?rel=0&showinfo=0" frameborder="0"></iframe>
+								<iframe class="youtubeIframe" width="444" height="250" src="http://www.youtube.com/embed/rLHU-_OhT8g?rel=0&showinfo=0" frameborder="0"></iframe>
 							</figure>
-							<p class="mainStoryParagraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+							<p class="mainStoryParagraph">Incredible footage of an American soldier caught in a terrible position as he tries to draw fire away from his colleagues.</p>
 							<div class="post-author news">
 								<address>Shared by SpiderManx1. 15th Jan, 2013.</address>
 							</div>
@@ -178,21 +178,33 @@ def main_container
 						<div class="widget-topComments group">
 							<h2>Top Comments</h2>	
 							<div class="topCommentsWrap group">
-								<div class="eachCommentWrap group">
-									<div class="topCommentTxt"><a href="#"><p class="topCommentP">"Yes let's go to﻿ mars."</p></a></div>
-									<div class="topCommentIMG"><img src="images/thumb-ch-locker-bedroom.png"/></div>
+								<div class="eachCommentContainer eachCommentContainerOne">
+									<div class="eachCommentWrap group">
+										<div class="topCommentTxt"><a href="#"><p class="topCommentP">"Yes let's go to﻿ mars."</p></a></div>
+										<div class="topCommentIMG"><img src="images/thumb-ch-locker-bedroom.png"/></div>
+									</div>
+									<div class="topCommentAuthorDIV">
+										<span class="topCommentAuthor">cgreen102 - 2 hours ago </span>
+									</div>
 								</div>
-								<div class="topCommentAuthorDIV"><span class="topCommentAuthor">cgreen102 - 2 hours ago </span></div>
-								<div class="eachCommentWrap group">
-									<div class="topCommentTxt"><a class="widerComment" href="#"><p class="topCommentP">"Health warnings should could with a health warning because they can..."</p></a></div>							
-									<div class="topCommentIMG"><img src="images/thumb-redbull-skydive.png"/></div>
+								<div class="eachCommentContainer eachCommentContainerTwo">
+									<div class="eachCommentWrap group">
+										<div class="topCommentTxt"><a class="widerComment" href="#"><p class="topCommentP">"Health warnings should could with a health warning because they can..."</p></a></div>							
+										<div class="topCommentIMG"><img src="images/thumb-redbull-skydive.png"/></div>
+									</div>
+									<div class="topCommentAuthorDIV">
+										<span class="topCommentAuthor">jsonshi - 5 hours ago </span>
+									</div>
 								</div>
-								<div class="topCommentAuthorDIV"><span class="topCommentAuthor">jsonshi - 5 hours ago </span></div>
-								<div class="eachCommentWrap group">
-									<div class="topCommentTxt"><a href="#"><p class="topCommentP">"This﻿ makes me wanna get a goat."</p></a></div>
-									<div class="topCommentIMG"><img src="images/thumb-us-dr-dre-snoop-dogg.png"/></div>
+								<div class="eachCommentContainer eachCommentContainerThree">
+									<div class="eachCommentWrap group">
+										<div class="topCommentTxt"><a href="#"><p class="topCommentP">"This﻿ makes me wanna get a goat."</p></a></div>
+										<div class="topCommentIMG"><img src="images/thumb-us-dr-dre-snoop-dogg.png"/></div>
+									</div>
+									<div class="topCommentAuthorDIV">
+										<span class="topCommentAuthor">jack_mullen - 1 day ago </span>
+									</div>
 								</div>
-								<div class="topCommentAuthorDIV"><span class="topCommentAuthor">jack_mullen - 1 day ago </span></div>
 							</div>							
 						</div>				
 					</div>
